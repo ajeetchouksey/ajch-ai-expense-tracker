@@ -1,0 +1,13 @@
+/* Main CSS migrated from reference */
+@import url('./index.css');
+@import url('./styles/theme.css');
+
+body {
+  font-family: 'Inter', sans-serif;
+  background: var(--background, #f8fafc);
+  color: var(--foreground, #22292f);
+  margin: 0;
+  padding: 0;
+}
+
+/* Add any global styles or overrides here */
