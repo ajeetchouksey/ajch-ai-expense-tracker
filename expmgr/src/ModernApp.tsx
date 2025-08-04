@@ -102,8 +102,19 @@ function App() {
                 <Brain size={32} weight="bold" />
               </div>
               <div>
-                <h1 className="app-title">Aarya Finance</h1>
-                <p className="app-subtitle">AI-Powered Personal Wealth Manager • Smart • Secure • Private</p>
+                {/* Removed old app name */}
+                  <p className="app-title">Aarya SmartMoney <span style={{
+                    fontSize: '0.95rem',
+                    fontWeight: 500,
+                    color: '#22c55e',
+                    background: 'rgba(34,197,94,0.08)',
+                    borderRadius: '8px',
+                    padding: '0.2em 0.7em',
+                    marginLeft: '0.5em',
+                    letterSpacing: '0.03em',
+                    verticalAlign: 'middle'
+                  }}>Powered by AI</span></p>
+                  <p className="app-subtitle">AI-Powered Personal Wealth Manager • Smart • Secure • Private</p>
               </div>
             </div>
             <div className="flex items-center gap-3">
@@ -607,6 +618,20 @@ function App() {
         onClose={() => setIsAddModalOpen(false)}
         onAddTransaction={addTransaction}
       />
+      {/* Footer */}
+      <footer style={{
+        width: '100%',
+        padding: '2rem 0 1rem 0',
+        textAlign: 'center',
+        color: 'rgba(255,255,255,0.7)',
+        fontSize: '0.95rem',
+        background: 'transparent',
+        letterSpacing: '0.02em'
+      }}>
+        <span>
+          &copy; {new Date().getFullYear()} Aarya SmartMoney &mdash; AI-powered personal finance, privacy-first. Made with ❤️ by ajeetchouksey.
+        </span>
+      </footer>
     </div>
   );
 }

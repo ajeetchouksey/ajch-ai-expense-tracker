@@ -160,7 +160,7 @@ function App() {
                 </div>
                 <div>
                   <h1 className="text-3xl font-bold tracking-tight gradient-text">
-                    Aarya - Personal Expense Manager
+                      Aarya SmartMoney
                   </h1>
                   <p className="text-muted-foreground mt-1">
                     Track your finances privately with AI-powered insights

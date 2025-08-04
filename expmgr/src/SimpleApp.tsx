@@ -50,7 +50,8 @@ function App() {
               </div>
               <div>
                 <h1 className="app-title">Aarya Finance</h1>
-                <p className="app-subtitle">AI-Powered Personal Wealth Manager • Smart • Secure • Private</p>
+                  <p className="app-title">Aarya SmartMoney</p>
+                  <p className="app-subtitle">AI-Powered Personal Wealth Manager • Smart • Secure • Private</p>
               </div>
             </div>
             <div className="flex items-center gap-3">
