@@ -343,6 +343,7 @@ function App() {
             <SettingsComponent
               userSettings={userSettings}
               categories={categories}
+              budgets={budgets}
             />
           </TabsContent>
         </Tabs>
